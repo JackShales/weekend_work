@@ -3,10 +3,10 @@
 def find_longest_word(sentence)
   array = sentence.split
   array.sort! { |x, y| y.length <=> x.length }
-  puts "The longest word is " + array[0]
+  array[0]
 end
 
-Driver code - don't touch anything below this line.
+# Driver code - don't touch anything below this line.
 puts "TESTING find_longest_word..."
 puts
 
